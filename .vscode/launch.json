@@ -1,0 +1,22 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "env": {},
+            "args": [
+            "--bootnodes", "/ip4/0.0.0.0/tcp/10000/ipfs/16Uiu2HAm3f3prVE7MkqeuzDBNC5GoNkoeR91NVz7MaL3HGSD9tzD",
+            "--port", "10001",
+            "--datadir", "/Users/czh/Workspace/perception_datadir/node1"
+            ]
+        }
+    ]
+}
